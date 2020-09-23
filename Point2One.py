@@ -367,9 +367,9 @@ class Point2One:
         return points
 
     def Point2One(self):
-        self.iface.messageBar().pushMessage(
-            "Warning", "It may take a while! Don't close QGIS!", level=Qgis.Warning
-        )
+       #self.iface.messageBar().pushMessage(
+            #"Warning", "It may take a while! Don't close QGIS!", level=Qgis.Warning
+        #)
 
         # load point layer into map canvas
         point_layer=self.loadPointLayer()
